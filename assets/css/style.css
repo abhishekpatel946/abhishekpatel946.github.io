@@ -312,7 +312,7 @@ img { max-width: 100%; }
 }
 
 .testimonial-list .testimonial-image img {
-	max-width: 180px;
+	max-width: 220px;
 	border-radius: 4px;
 }
 
@@ -374,7 +374,8 @@ img { max-width: 100%; }
 /***** About us *****/
 
 .about-us-box-text-test {
-	padding-right: 30px;
+	padding-right: 0px;
+	margin-top: 3ex;
 	text-align: center;
 }
 
