@@ -129,8 +129,11 @@
 	            </div>
 	            <div class="row">
 	            	<div class="col section-bottom-button wow fadeInUp">
-						<a class="btn btn-primary btn-link-1 scroll-link" href="https://drive.google.com/drive/u/0/folders/1bTlUY-30Pt1F5_nZ9n5vEbw7pnBEe6A3" >Download now</a>
-	            	</div>
+						<form method="get" action="assets/data/abhishekpatel-resume.pdf">
+							<button class="btn btn-primary btn-link-3 scroll-link" type="submit">Download</button>
+							<!-- <button type="submit">Download!</button> -->
+						 </form>
+					</div>
 	            </div>
 	        </div>
         </div>
@@ -307,21 +310,21 @@
 	                </div>
 	            </div>
 	            
-	            <form class="mt-5">
+	            <form class="mt-5" action="https://formspree.io/xpzrvlpz" method="POST">
 					<div class="form-group">
 						<label for="exampleInputEmail1">Name</label>
-						<input type="text" class="form-control" id="exampleInputText" placeholder="full name">
+						<input type="text" class="form-control" id="exampleInputText" placeholder="full name"  name="name" required >
 					</div>
 					<div class="form-group">
 					  <label for="exampleFormControlInput1">Email address</label>
-					  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="_replyto" required >
 					</div>
 					<div class="form-group">
 					  <label for="exampleFormControlTextarea1">Message</label>
-					  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="message"></textarea>
+					  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="message" name="message" required></textarea>
 					</div>
 					<div class="top-big-link wow fadeInUp">
-						<button class="btn btn-primary btn-link-2 scroll-link" type="submit">Submit</button>
+						<button class="btn btn-primary btn-link-2 scroll-link" type="submit" value="Send">Submit</button>
 					</div>
 
 				  </form>
@@ -333,15 +336,16 @@
 	        <div class="container">
 	        	<div class="row">
                     <div class="col-md-5 footer-left">
-                    	<p>&copy; Abhishek Patel 2020. All right reserved.</p>
+                    	<p>
+							abhishekpatel946@gmail.com <br>
+							&copy; Abhishek Patel 2020. All right reserved. 
+						</p>
                     </div>
                     
                     <div class="col-md-6 offset-md-1 footer-right">
-                    	<a href="#"><i class="fab fa-facebook-f"></i></a>
-						<a href="#"><i class="fab fa-linkedin"></i></a>
-						<a href="#"><i class="fab fa-twitter"></i></a>
-						<a href="#"><i class="fab fa-instagram"></i></a>
-						<a href="#"><i class="fab fa-google"></i></a>
+						<a href="https://www.linkedin.com/in/abhishek-patel-700442172/"><i class="fab fa-linkedin"></i></a>
+						<a href="https://www.instagram.com/_call_me__abhi__/"><i class="fab fa-instagram"></i></a>
+                    	<a href="https://www.facebook.com/profile.php?id=100009572612890"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
                 <div class="row">
