@@ -46,7 +46,8 @@ img { max-width: 100%; }
 
 .section-container {
     margin: 0 auto;
-    padding-bottom: 80px;
+	padding-bottom: 80px;
+	height: 50%;
 }
 
 .section-container-gray-bg {
