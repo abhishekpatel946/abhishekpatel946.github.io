@@ -3,9 +3,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
-	color: #888;
     line-height: 30px;
-    text-align: center;
+	text-align: center;
+	color: #666;
+	background-color: #fff;
 }
 
 strong { font-weight: 600; }
