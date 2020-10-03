@@ -5,7 +5,7 @@ body {
     font-weight: 300;
     line-height: 30px;
 	text-align: center;
-	color: #666;
+	color: rgb(43, 41, 41);
 	background-color: #fff;
 }
 
@@ -18,7 +18,7 @@ h1, h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 38px;
     font-weight: 300;
-    color: #555;
+    color: rgb(43, 41, 41);
     line-height: 50px;
 }
 
@@ -26,7 +26,7 @@ h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 22px;
     font-weight: 300;
-    color: #555;
+    color: rgb(43, 41, 41);
     line-height: 30px;
 }
 
@@ -203,6 +203,7 @@ img { max-width: 100%; }
 .top-content .text h1 {
 	margin-top: 25px;
 	color: #fff;
+	font-weight: bold;
 }
 
 .top-content .description {
@@ -229,11 +230,14 @@ img { max-width: 100%; }
 
 .about-us-box-text h3 {
 	margin-top: 0;
+	text-align: center;
+	font-weight: bold;
 }
 
 .about-us-box-text .medium-paragraph {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	font-weight: 500;
 }
 
 .about-us-box-text a { border-bottom: 1px dashed #9b59b6; }
@@ -241,6 +245,7 @@ img { max-width: 100%; }
 
 .about-us-box-img img {
 	border-radius: 5px;
+	
 }
 
 
